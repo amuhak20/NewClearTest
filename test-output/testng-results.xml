@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="145431" started-at="2018-05-28T20:45:09Z" finished-at="2018-05-28T20:47:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="145431" started-at="2018-05-28T20:45:09Z" finished-at="2018-05-28T20:47:35Z">
+      <class name="SearchTestCases.SearchFlightTests">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:SearchTestCases.SearchFlightTests@5a39699c]" name="initializeBrowser" is-config="true" duration-ms="18773" started-at="2018-05-29T02:14:51Z" finished-at="2018-05-29T02:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:SearchTestCases.SearchFlightTests@5a39699c]" name="launchBrowser" is-config="true" duration-ms="49974" started-at="2018-05-29T02:15:09Z" finished-at="2018-05-29T02:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="get4thPrice()[pri:0, instance:SearchTestCases.SearchFlightTests@5a39699c]" name="get4thPrice" duration-ms="35059" started-at="2018-05-29T02:15:59Z" description="Select 4th price" finished-at="2018-05-29T02:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get4thPrice -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:SearchTestCases.SearchFlightTests@5a39699c]" name="launchBrowser" is-config="true" duration-ms="15074" started-at="2018-05-29T02:16:34Z" finished-at="2018-05-29T02:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="get5thPrice()[pri:0, instance:SearchTestCases.SearchFlightTests@5a39699c]" name="get5thPrice" duration-ms="27124" started-at="2018-05-29T02:16:49Z" description="Select 5th price" finished-at="2018-05-29T02:17:17Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (854.5, 537.2999877929688). Other element would receive the click: <span class="ui-state-default"></span>
+Command duration or timeout: 200 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PersonalPC', ip: '192.168.1.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=false, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bd437f2b-136e-41c9-ab13-283f78b271a2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (854.5, 537.2999877929688). Other element would receive the click: <span class="ui-state-default"></span>
+Command duration or timeout: 200 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PersonalPC', ip: '192.168.1.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=false, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bd437f2b-136e-41c9-ab13-283f78b271a2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at PageObjects.SearchFlightsPage.clickSearchFlightsBtn(SearchFlightsPage.java:99)
+	at SearchTestCases.SearchFlightTests.searchRoundTripFlight(SearchFlightTests.java:101)
+	at SearchTestCases.SearchFlightTests.get5thPrice(SearchFlightTests.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get5thPrice -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:SearchTestCases.SearchFlightTests@5a39699c]" name="launchBrowser" is-config="true" duration-ms="18167" started-at="2018-05-29T02:17:17Z" finished-at="2018-05-29T02:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="getLongestFlightWith1Stop()[pri:0, instance:SearchTestCases.SearchFlightTests@5a39699c]" name="getLongestFlightWith1Stop" duration-ms="0" started-at="2018-05-29T02:17:35Z" description="Select longest flight with 1 stop" finished-at="2018-05-29T02:17:35Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipped
+	at SearchTestCases.SearchFlightTests.getLongestFlightWith1Stop(SearchFlightTests.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLongestFlightWith1Stop -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SearchTestCases.SearchFlightTests@5a39699c]" name="closeBrowser" is-config="true" duration-ms="52" started-at="2018-05-29T02:17:35Z" finished-at="2018-05-29T02:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SearchTestCases.SearchFlightTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
