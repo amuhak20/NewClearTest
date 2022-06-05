@@ -7,7 +7,7 @@ Feature: Login to Facebook
     
    Examples:
    | UN                     | PWD        |
-   | ahakeem2@gmail.com | 121321 |
+   | ahakeem@gmail.com | 121321 |
 
 @End2EndTest
   Scenario Outline: Login to FB with valid UN and PWD and log out
@@ -17,5 +17,5 @@ Feature: Login to Facebook
     
    Examples:
    | UN                     | PWD        |
-   | ahakeem2gmail.com | 1231223 |
+   | ahakeem@gmail.com | 1231223 |
    
