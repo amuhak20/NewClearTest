@@ -51,8 +51,8 @@ formatter.examples({
     },
     {
       "cells": [
-        "ali.hakeem20@gmail.com",
-        "hakd@n123$"
+        "ahakeem@gmail.com",
+        "1231"
       ],
       "line": 10,
       "id": "login-to-facebook;login-to-fb-with-valid-un-and-pwd;;2"
@@ -81,7 +81,7 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "user enters valid \"ali.hakeem20@gmail.com\" and \"hakd@n123$\"",
+  "name": "user enters valid \"ahakeem@gmail.com\" and \"12341\"",
   "matchedColumns": [
     0,
     1
@@ -103,11 +103,11 @@ formatter.result({
 formatter.match({
   "arguments": [
     {
-      "val": "ali.hakeem20@gmail.com",
+      "val": "ahakeem@gmail.com",
       "offset": 19
     },
     {
-      "val": "hakd@n123$",
+      "val": "12341",
       "offset": 48
     }
   ],
@@ -169,8 +169,8 @@ formatter.examples({
     },
     {
       "cells": [
-        "ali.hakeem20@gmail.com",
-        "hakd@n123$"
+        "ahakeem@gmail.com",
+        "12341"
       ],
       "line": 20,
       "id": "login-to-facebook;login-to-fb-with-valid-un-and-pwd-and-log-out;;2"
@@ -199,7 +199,7 @@ formatter.step({
 });
 formatter.step({
   "line": 15,
-  "name": "user enters valid \"ali.hakeem20@gmail.com\" and \"hakd@n123$\"",
+  "name": "user enters valid \"ahakeem@gmail.com\" and \"1234\"",
   "matchedColumns": [
     0,
     1
@@ -221,11 +221,11 @@ formatter.result({
 formatter.match({
   "arguments": [
     {
-      "val": "ali.hakeem20@gmail.com",
+      "val": "ahakeem@gmail.com",
       "offset": 19
     },
     {
-      "val": "hakd@n123$",
+      "val": "1234",
       "offset": 48
     }
   ],
